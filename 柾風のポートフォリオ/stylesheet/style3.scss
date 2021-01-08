@@ -1,0 +1,242 @@
+html {
+  font-size: 62.5%;
+}
+
+$breakpoint-large: 960px;
+
+body {
+  background-image: url(../imge/IMG_3382.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  font-size: 1vw;
+
+  .content {
+    width: 70%;
+    height: auto;
+    background-color: rgba(12, 12, 12, 0.747);
+    margin: auto;
+
+    @media (max-width:$breakpoint-large) {
+      width: 100%;
+    }
+
+    header {
+      @media (max-width: $breakpoint-large) {
+        width: 100vw;
+      }
+    }
+
+    ul {
+      display: flex;
+      color: rgb(152, 152, 219);
+      list-style: none;
+      width: 100%;
+      justify-content: center;
+
+      a {
+        text-decoration: none;
+      }
+
+      .li1 {
+        background-color: rgb(204, 179, 34);
+      }
+
+      li {
+        padding: 6px 45px;
+        margin: 30px 0;
+        border: solid 0.25px;
+        border-top: 0px;
+        border-bottom: 0px;
+        border-color: rgb(248, 241, 248);
+        color: floralwhite;
+        font-family: 'Noto Serif JP', serif;
+
+        @media (max-width:$breakpoint-large) {
+          font-size: 1.2vw;
+          padding: 6px 4vw;
+          letter-spacing: 0.6vw;
+        }
+        @media (max-width:439px) {
+          font-size: 1em;
+          padding: 6px 3vw;
+          letter-spacing: 0.2vw;
+        }
+
+        &:hover {
+          transition: 0.7s;
+          background-color: rgb(204, 179, 34);
+        }
+      }
+    }
+  }
+
+  main {
+    position: relative;
+
+    #logo-img {
+      width: 17.5vw;
+      position: absolute;
+      left: 12%;
+      top: 1.8%;
+      @media (max-width:$breakpoint-large) {
+        left: 15%;
+        width: 25%;
+        top: 0%;
+        text-align: center;
+      }
+    }
+
+    h1 {
+      color: honeydew;
+      position: absolute;
+      font-family: "ｍｓ 明朝", "ms mincho", "ヒラギノ明朝 pro w3", "hiragino mincho pro", serif;
+      left: 13vw;
+      top: 8.7vw;
+      font-size: 2vw;
+      text-shadow: 0px 0px 6px #ffffff;
+      @media (max-width:$breakpoint-large) {
+        font-size: 4vw;
+        top: 9vw;
+        left: 19vw;
+      }
+    }
+
+    .conteiner-wapper {
+      display: flex;
+      @media (max-width: 663px) {
+        display: block;
+      }
+
+      .conteiner-wapper1 {
+        padding-top: 22vw;
+        margin-right: 1vw;
+        padding-left: 3vw;
+        font-family: "ｍｓ 明朝", "ms mincho", "ヒラギノ明朝 pro w3", "hiragino mincho pro";
+        width: 32vw;
+        @media (max-width:$breakpoint-large){
+          width: 50vw;
+          margin-right: 2vw;
+        }
+        @media (max-width: 663px) {
+         text-align: center;
+          width: auto;
+        }
+      
+
+        h2 {
+          text-shadow: 0px 0px 6px #ffffff;
+          color: honeydew;
+          font-size: 3vw;
+          @media (max-width:$breakpoint-large){
+            margin-top: 10vw;
+          }
+          @media (max-width: 663px) {
+            font-size: 8vw;
+          }
+        }
+
+        .conteiner-p1 {
+          line-height: 1.9;
+          font-size: medium;
+          margin-top: 2vw;
+          letter-spacing: 0.4px;
+          color: honeydew;
+        }
+      }
+
+      .conteiner-wapper2 {
+        margin: 12vw 0 4vw 0;
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        gap: 0.2vw;
+        @media (max-width:$breakpoint-large) {
+          margin-top: 20vw;
+        }
+        @media (max-width: 663px) {
+          margin-top: 2vw;
+          gap: 1vw;
+          grid-template-columns: 23% 23% 23% 23% ;
+          margin-left: 4vw;
+          margin-bottom: 0;
+          padding-bottom: 3vw;
+        }
+
+        .conteiner-img1,
+        .conteiner-img2,
+        .conteiner-img3,
+        .conteiner-img4,
+        .conteiner-img5,
+        .conteiner-img6,
+        .conteiner-img7,
+        .conteiner-img8,
+        .conteiner-img9,
+        .conteiner-img10 {
+          img {
+            height: 15vw;
+            width: 8.4vw;
+            object-fit: cover;
+            @media (max-width:$breakpoint-large) {
+              height: 25vw;
+              width: 11.5vw;
+            }
+            @media (max-width: 663px) {
+              width: 100%;
+              // height: 100%;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  footer {
+    .section {
+      width: 100%;
+      height: auto;
+      font-size: 17px;
+      background-color: rgba(0, 0, 0, 0.39);
+      color: ivory;
+      text-align: center;
+      justify-content: center;
+      font-family: udmincho, ms mincho, ヒラギノ明朝 pro w3, hiragino mincho pro, serif;
+
+      @media (min-width: 710px) {
+        display: flex;
+      }
+
+      .container1 {
+        margin-right: 15px;
+        margin-top: 30px;
+
+        p {
+          padding-top: 10px;
+        }
+        @media (max-width: 710px) {
+          margin-bottom: 0px;
+          margin-top: 0px;
+        }
+
+        .container-img {
+          .icon {
+            width: 50px;
+            margin: 10px;
+          }
+        }
+      }
+
+      .container2 {
+        margin-top: 30px;
+        margin-left: 15px;
+        @media (max-width: 710px) {
+          margin-bottom: 10px;
+          margin-top: 0px;
+        }
+
+        p {
+          padding-top: 10px;
+        }
+      }
+    }
+  }
+}
