@@ -53,16 +53,16 @@ body {
         font-family: 'Noto Serif JP', serif;
 
         @media (max-width:$breakpoint-large) {
-          font-size: 1.2vw;
+          font-size: 1.8vw;
           padding: 6px 4vw;
           letter-spacing: 0.6vw;
         }
 
-        @media (max-width:439px) {
-          font-size: 1em;
-          padding: 6px 3vw;
-          letter-spacing: 0.2vw;
-        }
+        // @media (max-width:439px) {
+        //   font-size: 1em;
+        //   padding: 6px 3vw;
+        //   letter-spacing: 0.2vw;
+        // }
 
 
         &:hover {

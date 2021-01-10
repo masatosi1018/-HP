@@ -59,17 +59,9 @@ body .content ul li {
 
 @media (max-width: 960px) {
   body .content ul li {
-    font-size: 1.2vw;
+    font-size: 1.8vw;
     padding: 6px 4vw;
     letter-spacing: 0.6vw;
-  }
-}
-
-@media (max-width: 439px) {
-  body .content ul li {
-    font-size: 1em;
-    padding: 6px 3vw;
-    letter-spacing: 0.2vw;
   }
 }
 
@@ -151,7 +143,7 @@ body main .conteiner-wapper .conteiner-wapper1 h2 {
 
 @media (max-width: 690px) {
   body main .conteiner-wapper .conteiner-wapper1 h2 {
-    font-size: 5vw;
+    font-size: 6vw;
   }
 }
 
@@ -168,7 +160,7 @@ body main .conteiner-wapper .conteiner-wapper1 .conteiner-p1 {
   body main .conteiner-wapper .conteiner-wapper1 .conteiner-p1 {
     width: auto;
     margin-bottom: 20px;
-    font-size: 2vw;
+    font-size: 2.5vw;
   }
 }
 
@@ -176,6 +168,14 @@ body main .conteiner-wapper .conteiner-wapper1 .conteiner-p2 {
   margin-left: 3vw;
   line-height: 1.9;
   font-size: larger;
+}
+
+@media (max-width: 690px) {
+  body main .conteiner-wapper .conteiner-wapper1 .conteiner-p2 {
+    font-size: 2vw;
+    text-align: left;
+    display: inline-block;
+  }
 }
 
 body main .conteiner-wapper .conteiner-wapper1 p {

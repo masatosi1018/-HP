@@ -53,15 +53,15 @@ body {
         font-family: 'Noto Serif JP', serif;
 
         @media (max-width:$breakpoint-large) {
-          font-size: 1.2vw;
+          font-size: 1.8vw;
           padding: 6px 4vw;
           letter-spacing: 0.6vw;
         }
-        @media (max-width:439px) {
-          font-size: 1em;
-          padding: 6px 3vw;
-          letter-spacing: 0.2vw;
-        }
+        // @media (max-width:439px) {
+        //   font-size: 1em;
+        //   padding: 6px 3vw;
+        //   letter-spacing: 0.2vw;
+        // }
         
 
         &:hover {
@@ -129,7 +129,7 @@ body {
           @media (max-width:$breakpoint-large) {
             padding-top: 30vw;
           }@media (max-width: 690px) {
-            font-size: 5vw;
+            font-size: 6vw;
           }
         }
 
@@ -143,7 +143,7 @@ body {
           @media (max-width: 690px) {
             width: auto;
             margin-bottom: 20px;
-            font-size: 2vw;
+            font-size: 2.5vw;
           }
         }
 
@@ -151,7 +151,11 @@ body {
           margin-left: 3vw;
           line-height: 1.9;
           font-size: larger;
-
+          @media (max-width: 690px) {
+            font-size: 2vw;
+            text-align: left;
+            display: inline-block;
+          }
         }
 
         p {

@@ -59,17 +59,9 @@ body .content ul li {
 
 @media (max-width: 960px) {
   body .content ul li {
-    font-size: 1.2vw;
+    font-size: 1.8vw;
     padding: 6px 4vw;
     letter-spacing: 0.6vw;
-  }
-}
-
-@media (max-width: 439px) {
-  body .content ul li {
-    font-size: 1em;
-    padding: 6px 3vw;
-    letter-spacing: 0.2vw;
   }
 }
 
@@ -127,7 +119,7 @@ body main .conteiner h2 {
   body main .conteiner h2 {
     margin: 0 auto;
     text-align: center;
-    font-size: 4vw;
+    font-size: 5vw;
     margin-bottom: 2rem;
   }
 }
