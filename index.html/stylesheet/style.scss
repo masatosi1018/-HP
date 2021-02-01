@@ -58,11 +58,11 @@ body {
           letter-spacing: 0.6vw;
         }
 
-        // @media (max-width:439px) {
-        //   font-size: 1em;
-        //   padding: 6px 3vw;
-        //   letter-spacing: 0.2vw;
-        // }
+        @media (max-width:439px) {
+          font-size: 1em;
+          padding: 6px 3vw;
+          letter-spacing: 0.2vw;
+        }
 
 
         &:hover {
