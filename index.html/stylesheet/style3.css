@@ -4,6 +4,7 @@ html {
 }
 
 body {
+  color: aqua;
   background-image: url(../imge/IMG_3382.jpg);
   background-attachment: fixed;
   background-size: cover;
