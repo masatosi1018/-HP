@@ -84,6 +84,7 @@ body {
       #logo-img {
         width: 60%;
         height: 60%;
+        transform: 2s;
 
         @media (max-width: $breakpoint-large) {
           width: 70%;

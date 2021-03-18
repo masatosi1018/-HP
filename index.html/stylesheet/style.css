@@ -80,6 +80,7 @@ body main .conteiner {
 body main .conteiner #logo-img {
   width: 60%;
   height: 60%;
+  transform: 2s;
 }
 
 @media (max-width: 960px) {
