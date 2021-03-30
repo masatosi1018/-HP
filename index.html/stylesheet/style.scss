@@ -76,10 +76,16 @@ body {
 
   main {
     .conteiner {
-      margin-top: 5vh;
+      margin-top: 8vh;
       padding-bottom: 70px;
       text-align: center;
       position: relative;
+      opacity: 0;
+      transition: 1s;
+      &.show{
+        opacity: 1;
+      }
+      
 
       #logo-img {
         width: 60%;
@@ -91,6 +97,7 @@ body {
           height: 70%;
         }
       }
+      
 
       .conteiner-text {
         color: honeydew;

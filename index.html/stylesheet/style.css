@@ -71,10 +71,16 @@ body .content ul li:hover {
 }
 
 body main .conteiner {
-  margin-top: 5vh;
+  margin-top: 8vh;
   padding-bottom: 70px;
   text-align: center;
   position: relative;
+  opacity: 0;
+  transition: 1s;
+}
+
+body main .conteiner.show {
+  opacity: 1;
 }
 
 body main .conteiner #logo-img {

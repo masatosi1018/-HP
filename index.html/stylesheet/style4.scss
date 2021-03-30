@@ -76,6 +76,11 @@ body {
   main {
     position: relative;
     height: auto;
+    opacity: 0;
+    transition: 1s;
+    &.show{
+      opacity: 1;
+    }
 
     #logo-img {
       width: 17.5vw;

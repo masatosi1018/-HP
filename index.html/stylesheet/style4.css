@@ -73,6 +73,12 @@ body .content ul li:hover {
 body main {
   position: relative;
   height: auto;
+  opacity: 0;
+  transition: 1s;
+}
+
+body main.show {
+  opacity: 1;
 }
 
 body main #logo-img {
